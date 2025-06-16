@@ -1,0 +1,16 @@
+.env
+venv
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*.pyzw
+data/cooper_hewitt_textile_objects.json
+data/met_textile_objects.json
+data/textile_objectIDs.json
+.ipynb_checkpoints/
+.DS_Store

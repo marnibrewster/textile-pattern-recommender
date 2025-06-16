@@ -1,0 +1,781 @@
+[
+  {
+    "id": "35520905",
+    "tms:id": "275078",
+    "accession_number": "2013-22-1",
+    "title": "Blanket, Index Collection",
+    "title_raw": "Index Collection",
+    "url": "https://collection.cooperhewitt.org/objects/35520905/",
+    "has_no_known_copyright": null,
+    "department_id": "35347501",
+    "period_id": null,
+    "media_id": "35520901",
+    "type_id": "35298807",
+    "date": "2012",
+    "year_start": 2012,
+    "year_end": 2012,
+    "year_acquired": "2013",
+    "decade": "2010",
+    "woe:country_id": "23424909",
+    "medium": "organic cotton warp, merino wool weft",
+    "markings": null,
+    "signed": null,
+    "inscribed": null,
+    "provenance": "Given by the designers and the TextielMuseum, Tilburg, The Netherlands.",
+    "dimensions": "H x W: 170.2 x 200 cm (5 ft. 7 in. x 6 ft. 6 3/4 in.)",
+    "dimensions_raw": {
+      "height": [
+        "170.18",
+        "centimeters"
+      ],
+      "width": [
+        "200.00",
+        "centimeters"
+      ]
+    },
+    "creditline": "Gift of Raw Color",
+    "description": "White blanket with bands of blocks of single colors and mixed colors, increasing in saturation by steps of 10% from one side to the other.",
+    "justification": "The TextielLab at the Textiel Museum in Tilburg, Netherlands, is a studio for experimentation with state of the art knitting and weaving technologies. The lab regularly invites designers working in a variety of disciplines to conduct research and explore new capabilities using the lab\u2019s machines. In 2012, the Dutch design studio Raw Color was invited to participate. Raw Color\u2019s young principals, Daniera ter Haar and Christoph Brach, work primarily in graphic design and photography. When they were invited to TextielLab, the designers had been engaged in a series of color experiments\u2014including using vegetables to create printing inks\u2014to examine the relationship between materiality and color. Working with the team at Tilburg, der Haar and Brach created the Index Collection of tea towels and blankets, which explores concepts from graphic design in woven form. In terms of both technology and terminology, there is surprisingly little overlap between print and weaving. \nThe Index Collection uses a series of boxes, similar to the screen keys seen on the sides of printed fabrics, to express the intensity of color in each surface, from 10% to 100%. In weaving, this variation in color intensity is created by altering the weave structure to bring more of the colored yarn to the surface. In addition to color intensity, the blanket proposed for acquisition also shows monotone, duotone, and multitone examples of color blending as executed in weaving.",
+    "gallery_text": "This blanket takes the language of the print world\u2014monotone, duotone, and multitoned color blending\u2014and expresses it in weaving. The increasing saturation of the colors is brought about by bringing more warp threads to the surface of the weave structure. ",
+    "label_text": "This blanket takes the language of the print world\u2014monotone, duotone, and multitoned color blending\u2014and expresses it in weaving. The increasing saturation of the colors is brought about by bringing more warp threads to the surface of the weave structure. ",
+    "videos": null,
+    "on_display": null,
+    "woe:country": "23424909",
+    "type": "Blanket",
+    "images": [
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/90373_582628846e909e37_b.jpg",
+          "width": 1024,
+          "height": 1024,
+          "is_primary": "1",
+          "image_id": "90373"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/90373_582628846e909e37_z.jpg",
+          "width": 640,
+          "height": 640,
+          "is_primary": "1",
+          "image_id": "90373"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/90373_582628846e909e37_n.jpg",
+          "width": 320,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "90373"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/90373_582628846e909e37_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "1",
+          "image_id": "90373"
+        }
+      }
+    ],
+    "participants": [
+      {
+        "person_id": "68247977",
+        "role_id": "35236745",
+        "person_name": "Textile Museum",
+        "person_date": "Tilburg, Netherlands",
+        "role_name": "Weaver",
+        "role_display_name": "Woven by",
+        "person_url": "https://collection.cooperhewitt.org/people/68247977/",
+        "role_url": "https://collection.cooperhewitt.org/roles/35236745/"
+      }
+    ],
+    "woe:country_name": "Netherlands",
+    "is_loan_object": 0
+  },
+  {
+    "id": "35520911",
+    "tms:id": "275079",
+    "accession_number": "2013-22-2-1/3",
+    "title": "Three Tea Towels, Index Collection",
+    "title_raw": "Index Collection",
+    "url": "https://collection.cooperhewitt.org/objects/35520911/",
+    "has_no_known_copyright": null,
+    "department_id": "35347501",
+    "period_id": null,
+    "media_id": "35520907",
+    "type_id": "51689183",
+    "date": "2012",
+    "year_start": 2012,
+    "year_end": 2012,
+    "year_acquired": "2013",
+    "decade": "2010",
+    "woe:country_id": "23424909",
+    "medium": "organic cotton",
+    "markings": null,
+    "signed": null,
+    "inscribed": null,
+    "provenance": "Given by the designers and the TextielMuseum, Tilburg, The Netherlands.",
+    "dimensions": "H x W: 67.3 x 55.9 cm (26 1/2 x 22 in.)",
+    "dimensions_raw": {
+      "height": [
+        "67.31",
+        "centimeters"
+      ],
+      "width": [
+        "55.88",
+        "centimeters"
+      ]
+    },
+    "creditline": "Gift of Raw Color",
+    "description": "Set of three tea towels, the first showing varied intensities of a single color, the second a blending of two colors, and the third three colors.",
+    "justification": "The TextielLab at the Textiel Museum in Tilburg, Netherlands, is a studio for experimentation with state of the art knitting and weaving technologies. The lab regularly invites designers working in a variety of disciplines to conduct research and explore new capabilities using the lab\u2019s machines. In 2012, the Dutch design studio Raw Color was invited to participate. Raw Color\u2019s young principals, Daniera ter Haar and Christoph Brach, work primarily in graphic design and photography. When they were invited to TextielLab, the designers had been engaged in a series of color experiments\u2014including using vegetables to create printing inks\u2014to examine the relationship between materiality and color. Working with the team at Tilburg, der Haar and Brach created the Index Collection of tea towels and blankets, which explores concepts from graphic design in woven form. In terms of both technology and terminology, there is surprisingly little overlap between print and weaving. \nThe Index Collection uses a series of boxes, similar to the screen keys seen on the sides of printed fabrics, to express the intensity of color in each surface, from 10% to 100%. In weaving, this variation in color intensity is created by altering the weave structure to bring more of the colored yarn to the surface. In addition to color intensity, the three tea towels proposed for acquisition form a series that shows monotone, duotone, and multitone examples of color blending as executed in weaving.",
+    "gallery_text": null,
+    "label_text": null,
+    "videos": null,
+    "on_display": null,
+    "woe:country": "23424909",
+    "type": "Three tea towels",
+    "images": [
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/90393_8b3809bbe5eab3a8_b.jpg",
+          "width": 1024,
+          "height": 1024,
+          "is_primary": "1",
+          "image_id": "90393"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/90393_8b3809bbe5eab3a8_z.jpg",
+          "width": 640,
+          "height": 640,
+          "is_primary": "1",
+          "image_id": "90393"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/90393_8b3809bbe5eab3a8_n.jpg",
+          "width": 320,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "90393"
+        },
+        "d": {
+          "url": "https://images.collection.cooperhewitt.org/90393_8b3809bbe5eab3a8_d.gif",
+          "width": 320,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "90393"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/90393_8b3809bbe5eab3a8_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "1",
+          "image_id": "90393"
+        }
+      }
+    ],
+    "participants": [
+      {
+        "person_id": "68247977",
+        "role_id": "35236745",
+        "person_name": "Textile Museum",
+        "person_date": "Tilburg, Netherlands",
+        "role_name": "Weaver",
+        "role_display_name": "Woven by",
+        "person_url": "https://collection.cooperhewitt.org/people/68247977/",
+        "role_url": "https://collection.cooperhewitt.org/roles/35236745/"
+      }
+    ],
+    "woe:country_name": "Netherlands",
+    "is_loan_object": 0
+  },
+  {
+    "id": "69155355",
+    "tms:id": "283003",
+    "accession_number": "15.2015.1",
+    "title": "Tapestry, Nightless Night, from the Reveille series",
+    "title_raw": "Nightless Night, from the Reveille series",
+    "url": "https://collection.cooperhewitt.org/objects/69155355/",
+    "has_no_known_copyright": null,
+    "department_id": "404529577",
+    "period_id": null,
+    "media_id": "69192373",
+    "type_id": "35257173",
+    "date": "2015",
+    "year_start": 2015,
+    "year_end": 2015,
+    "year_acquired": null,
+    "decade": "2010",
+    "woe:country_id": null,
+    "medium": "jacquard-woven mohair and rubber",
+    "markings": null,
+    "signed": null,
+    "inscribed": null,
+    "provenance": null,
+    "dimensions": "H x W: 232 \u00d7 166 cm (7 ft. 7 5/16 in. \u00d7 5 ft. 5 3/8 in.)",
+    "dimensions_raw": null,
+    "creditline": "Courtesy of Kustaa Saksi",
+    "description": null,
+    "justification": null,
+    "gallery_text": "Saksi utilizes sinuous, psychedelic patterns in a series of tapestries meant to invoke memories of growing up in Kouvola, Finland. His Reveille series experiments with Jacquard weaving techniques. In Nightless Night, moths, bats, and celestial constellations serve to visualize the sleeping mind at the edge of waking up. In addition to traditional materials, Saksi uses rubber, acrylic, lurex, and phosphorescent yarn with mohair and cashmere wool to complete his tapestries.",
+    "label_text": null,
+    "videos": null,
+    "on_display": null,
+    "woe:country": null,
+    "type": "Tapestry",
+    "images": [
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/265640_9ea6031a31107040_b.jpg",
+          "width": 751,
+          "height": 1024,
+          "is_primary": "1",
+          "image_id": "265640"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/265640_9ea6031a31107040_z.jpg",
+          "width": 469,
+          "height": 640,
+          "is_primary": "1",
+          "image_id": "265640"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/265640_9ea6031a31107040_n.jpg",
+          "width": 235,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "265640"
+        },
+        "d": {
+          "url": "https://images.collection.cooperhewitt.org/265640_9ea6031a31107040_d.gif",
+          "width": 235,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "265640"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/265640_9ea6031a31107040_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "1",
+          "image_id": "265640"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/265673_7b8d4cb926f13a38_b.jpg",
+          "width": 768,
+          "height": 1024,
+          "is_primary": "0",
+          "image_id": "265673"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/265673_7b8d4cb926f13a38_z.jpg",
+          "width": 480,
+          "height": 640,
+          "is_primary": "0",
+          "image_id": "265673"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/265673_7b8d4cb926f13a38_n.jpg",
+          "width": 240,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "265673"
+        },
+        "d": {
+          "url": "https://images.collection.cooperhewitt.org/265673_7b8d4cb926f13a38_d.gif",
+          "width": 240,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "265673"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/265673_7b8d4cb926f13a38_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "265673"
+        }
+      }
+    ],
+    "participants": [
+      {
+        "person_id": "68247977",
+        "role_id": "51571131",
+        "person_name": "Textile Museum",
+        "person_date": "Tilburg, Netherlands",
+        "role_name": "Lender",
+        "role_display_name": "Lent by",
+        "person_url": "https://collection.cooperhewitt.org/people/68247977/",
+        "role_url": "https://collection.cooperhewitt.org/roles/51571131/"
+      }
+    ],
+    "is_loan_object": 1
+  },
+  {
+    "id": "18445939",
+    "tms:id": "133481",
+    "accession_number": "1962-60-8",
+    "title": "Wig Stand (France)",
+    "title_raw": "",
+    "url": "https://collection.cooperhewitt.org/objects/18445939/",
+    "has_no_known_copyright": null,
+    "department_id": "35347497",
+    "period_id": null,
+    "media_id": "772987129",
+    "type_id": "772987121",
+    "date": "mid-18th century",
+    "year_start": null,
+    "year_end": null,
+    "year_acquired": "1962",
+    "decade": null,
+    "woe:country_id": "23424819",
+    "medium": "tin-glazed earthenware, underglaze and overglaze decoration",
+    "markings": null,
+    "signed": null,
+    "inscribed": null,
+    "provenance": "Richard Cranch Greenleaf; 1962: acquired by Museum",
+    "dimensions": "H x diam.: 1.7 \u00d7 10 cm (11/16 \u00d7 3 15/16 in.)",
+    "dimensions_raw": null,
+    "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
+    "description": "On pierced globe, a continuous landscape that includes figures and a tree, in cobalt blue and manganese purple. Brown overglaze partially scraped off. Tri-foil scroll design on pedestal.",
+    "justification": null,
+    "gallery_text": null,
+    "label_text": null,
+    "videos": null,
+    "on_display": null,
+    "woe:country": "23424819",
+    "type": "Wig stand",
+    "images": [
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/377444_6e94190106224633_b.jpg",
+          "width": 1024,
+          "height": 989,
+          "is_primary": "1",
+          "image_id": "377444"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/377444_6e94190106224633_z.jpg",
+          "width": 640,
+          "height": 618,
+          "is_primary": "1",
+          "image_id": "377444"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/377444_6e94190106224633_n.jpg",
+          "width": 320,
+          "height": 309,
+          "is_primary": "1",
+          "image_id": "377444"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/377444_6e94190106224633_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "1",
+          "image_id": "377444"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/377444_ad273327c74dba6c_x.jpg",
+          "width": 5549,
+          "height": 5362,
+          "is_primary": "1",
+          "image_id": "377444"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/377445_af1d10ab08d59d29_b.jpg",
+          "width": 1016,
+          "height": 1024,
+          "is_primary": "0",
+          "image_id": "377445"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/377445_af1d10ab08d59d29_z.jpg",
+          "width": 635,
+          "height": 640,
+          "is_primary": "0",
+          "image_id": "377445"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/377445_af1d10ab08d59d29_n.jpg",
+          "width": 318,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "377445"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/377445_af1d10ab08d59d29_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "377445"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/377445_aa37876501aca3d5_x.jpg",
+          "width": 5815,
+          "height": 5861,
+          "is_primary": "0",
+          "image_id": "377445"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/377441_390be1b28ae86ae1_b.jpg",
+          "width": 1024,
+          "height": 989,
+          "is_primary": "0",
+          "image_id": "377441"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/377441_390be1b28ae86ae1_z.jpg",
+          "width": 640,
+          "height": 618,
+          "is_primary": "0",
+          "image_id": "377441"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/377441_390be1b28ae86ae1_n.jpg",
+          "width": 320,
+          "height": 309,
+          "is_primary": "0",
+          "image_id": "377441"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/377441_390be1b28ae86ae1_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "377441"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/377441_d8a2ef71322318dc_x.jpg",
+          "width": 5549,
+          "height": 5362,
+          "is_primary": "0",
+          "image_id": "377441"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/377442_804b183b697436ea_b.jpg",
+          "width": 1024,
+          "height": 989,
+          "is_primary": "0",
+          "image_id": "377442"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/377442_804b183b697436ea_z.jpg",
+          "width": 640,
+          "height": 618,
+          "is_primary": "0",
+          "image_id": "377442"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/377442_804b183b697436ea_n.jpg",
+          "width": 320,
+          "height": 309,
+          "is_primary": "0",
+          "image_id": "377442"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/377442_804b183b697436ea_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "377442"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/377442_41a014bb60d469bf_x.jpg",
+          "width": 5549,
+          "height": 5362,
+          "is_primary": "0",
+          "image_id": "377442"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/377443_0193902870e95e31_b.jpg",
+          "width": 1024,
+          "height": 989,
+          "is_primary": "0",
+          "image_id": "377443"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/377443_0193902870e95e31_z.jpg",
+          "width": 640,
+          "height": 618,
+          "is_primary": "0",
+          "image_id": "377443"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/377443_0193902870e95e31_n.jpg",
+          "width": 320,
+          "height": 309,
+          "is_primary": "0",
+          "image_id": "377443"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/377443_0193902870e95e31_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "377443"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/377443_0eb4c4ee754e3148_x.jpg",
+          "width": 5549,
+          "height": 5362,
+          "is_primary": "0",
+          "image_id": "377443"
+        }
+      },
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/106939_b538878bbf4aae33_b.jpg",
+          "width": 981,
+          "height": 1024,
+          "is_primary": "0",
+          "image_id": "106939"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/106939_b538878bbf4aae33_z.jpg",
+          "width": 613,
+          "height": 640,
+          "is_primary": "0",
+          "image_id": "106939"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/106939_b538878bbf4aae33_n.jpg",
+          "width": 306,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "106939"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/106939_b538878bbf4aae33_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "106939"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/106939_3aa66f603f923661_x.jpg",
+          "width": 3536,
+          "height": 3691,
+          "is_primary": "0",
+          "image_id": "106939"
+        }
+      }
+    ],
+    "participants": [
+      {
+        "person_id": "18049377",
+        "role_id": "35351537",
+        "person_name": "Richard Cranch Greenleaf (American, 1887\u20131961)",
+        "person_date": "",
+        "role_name": "Bequestor",
+        "role_display_name": "Bequest of",
+        "person_url": "https://collection.cooperhewitt.org/people/18049377/",
+        "role_url": "https://collection.cooperhewitt.org/roles/35351537/"
+      }
+    ],
+    "woe:country_name": "France",
+    "is_loan_object": 0
+  },
+  {
+    "id": "18445215",
+    "tms:id": "133099",
+    "accession_number": "1962-54-25-a,b",
+    "title": "Waistcoat Fronts (France)",
+    "title_raw": "",
+    "url": "https://collection.cooperhewitt.org/objects/18445215/",
+    "has_no_known_copyright": null,
+    "department_id": "35347501",
+    "period_id": null,
+    "media_id": "35421009",
+    "type_id": "35259551",
+    "date": "ca. 1760",
+    "year_start": null,
+    "year_end": null,
+    "year_acquired": "1962",
+    "decade": null,
+    "woe:country_id": "23424819",
+    "medium": "silk, metal wire, sequins, paste jewels",
+    "markings": null,
+    "signed": null,
+    "inscribed": null,
+    "provenance": "Ex-collection: Georges Saville Seligman; 1962: acquired by the Museum.",
+    "dimensions": "H x W: 77 x 28 cm (30 5/16 x 11 in.)",
+    "dimensions_raw": {
+      "height": [
+        "77.00",
+        "centimeters"
+      ],
+      "width": [
+        "28.00",
+        "centimeters"
+      ]
+    },
+    "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
+    "description": "Left and right fronts of a gentleman's waistcoat with no collar, shaped lower edge and pocket flaps, embroidered in fourteen colors of silk with sequins and paste jewels on an ivory silk ground. Overall tiny floral sprig, floral border at center front, and design of sailing ships and swagged garlands at lower edge.",
+    "justification": null,
+    "gallery_text": null,
+    "label_text": null,
+    "videos": null,
+    "on_display": null,
+    "woe:country": "23424819",
+    "type": "Waistcoat fronts",
+    "images": [
+      {
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/325047_c493a174c8b0a15c_b.jpg",
+          "width": 978,
+          "height": 1024,
+          "is_primary": "1",
+          "image_id": "325047"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/325047_c493a174c8b0a15c_z.jpg",
+          "width": 611,
+          "height": 640,
+          "is_primary": "1",
+          "image_id": "325047"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/325047_c493a174c8b0a15c_n.jpg",
+          "width": 305,
+          "height": 320,
+          "is_primary": "1",
+          "image_id": "325047"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/325047_c493a174c8b0a15c_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "1",
+          "image_id": "325047"
+        },
+        "x": {
+          "url": "https://images.collection.cooperhewitt.org/325047_eee41b86b70b5e25_x.jpg",
+          "width": 5856,
+          "height": 6136,
+          "is_primary": "1",
+          "image_id": "325047"
+        }
+      },
+      {
+        "o": {
+          "url": "https://images.collection.cooperhewitt.org/86727_0272360bfeb0f1ef_o.jpg",
+          "width": 3000,
+          "height": 1828,
+          "is_primary": "0",
+          "image_id": "86727"
+        },
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/86727_f04a0c6671b40490_b.jpg",
+          "width": 1024,
+          "height": 624,
+          "is_primary": "0",
+          "image_id": "86727"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/86727_f04a0c6671b40490_z.jpg",
+          "width": 640,
+          "height": 390,
+          "is_primary": "0",
+          "image_id": "86727"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/86727_f04a0c6671b40490_n.jpg",
+          "width": 320,
+          "height": 195,
+          "is_primary": "0",
+          "image_id": "86727"
+        },
+        "d": {
+          "url": "https://images.collection.cooperhewitt.org/86727_f04a0c6671b40490_d.gif",
+          "width": 320,
+          "height": 195,
+          "is_primary": "0",
+          "image_id": "86727"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/86727_f04a0c6671b40490_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "86727"
+        }
+      },
+      {
+        "o": {
+          "url": "https://images.collection.cooperhewitt.org/6274_9d579f8ae55694c2_o.jpg",
+          "width": 799,
+          "height": 1500,
+          "is_primary": "0",
+          "image_id": "6274"
+        },
+        "b": {
+          "url": "https://images.collection.cooperhewitt.org/6274_7a8f19a280c3ff92_b.jpg",
+          "width": 545,
+          "height": 1024,
+          "is_primary": "0",
+          "image_id": "6274"
+        },
+        "z": {
+          "url": "https://images.collection.cooperhewitt.org/6274_7a8f19a280c3ff92_z.jpg",
+          "width": 341,
+          "height": 640,
+          "is_primary": "0",
+          "image_id": "6274"
+        },
+        "n": {
+          "url": "https://images.collection.cooperhewitt.org/6274_7a8f19a280c3ff92_n.jpg",
+          "width": 170,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "6274"
+        },
+        "d": {
+          "url": "https://images.collection.cooperhewitt.org/6274_7a8f19a280c3ff92_d.gif",
+          "width": 170,
+          "height": 320,
+          "is_primary": "0",
+          "image_id": "6274"
+        },
+        "sq": {
+          "url": "https://images.collection.cooperhewitt.org/6274_7a8f19a280c3ff92_sq.jpg",
+          "width": 300,
+          "height": 300,
+          "is_primary": "0",
+          "image_id": "6274"
+        }
+      }
+    ],
+    "participants": [
+      {
+        "person_id": "18539317",
+        "role_id": "2318792694",
+        "person_name": "George Saville Seligman",
+        "person_date": "",
+        "role_name": "Previous owner",
+        "role_display_name": "Previously owned by",
+        "person_url": "https://collection.cooperhewitt.org/people/18539317/",
+        "role_url": "https://collection.cooperhewitt.org/roles/2318792694/"
+      },
+      {
+        "person_id": "18049377",
+        "role_id": "35351537",
+        "person_name": "Richard Cranch Greenleaf (American, 1887\u20131961)",
+        "person_date": "",
+        "role_name": "Bequestor",
+        "role_display_name": "Bequest of",
+        "person_url": "https://collection.cooperhewitt.org/people/18049377/",
+        "role_url": "https://collection.cooperhewitt.org/roles/35351537/"
+      }
+    ],
+    "woe:country_name": "France",
+    "is_loan_object": 0
+  }
+]
