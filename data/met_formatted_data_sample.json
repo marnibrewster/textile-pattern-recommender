@@ -1,0 +1,854 @@
+[
+  {
+    "id": 199706,
+    "embedding_text": "Seasons and Elements (Summer) (set of four), classified as a Hanging. Made of Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.), created around ca. 1683 during the   . Associated with . Classification: Textiles-Embroidered. Created by Charles Le Brun (French, Paris 1619\u20131690 Paris). Credit: Rogers Fund, 1946. Tags: Birds, Garlands, Women, Crabs, Lions, Flowers, Summer",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/web-large/DT812.jpg",
+    "raw": {
+      "objectID": 199706,
+      "isHighlight": false,
+      "accessionNumber": "46.43.2",
+      "accessionYear": "1946",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DT812.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DT812.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/es/original/DP155163.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 162053,
+          "role": "Designer",
+          "name": "Possibly after a design by Charles Le Brun",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+          "gender": ""
+        },
+        {
+          "constituentID": 46349,
+          "role": "Designer",
+          "name": "Border probably designed by Jean Lemoyen le Lorrain",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q79424575",
+          "gender": ""
+        },
+        {
+          "constituentID": 44426,
+          "role": "Patron",
+          "name": "Commissioned for Marquise de Montespan",
+          "constituentULAN_URL": "(not assigned)",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q230982",
+          "gender": ""
+        }
+      ],
+      "department": "European Sculpture and Decorative Arts",
+      "objectName": "Hanging",
+      "title": "Seasons and Elements (Summer) (set of four)",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Designer",
+      "artistPrefix": "Possibly after a design by",
+      "artistDisplayName": "Charles Le Brun",
+      "artistDisplayBio": "French, Paris 1619\u20131690 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Le Brun, Charles",
+      "artistNationality": "French",
+      "artistBeginDate": "1619",
+      "artistEndDate": "1690",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+      "objectDate": "ca. 1683",
+      "objectBeginDate": 1678,
+      "objectEndDate": 1688,
+      "medium": "Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.)",
+      "dimensions": "L. 174 x W. 110 inches (442 x 279.4 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 442,
+            "Width": 279.4
+          }
+        }
+      ],
+      "creditLine": "Rogers Fund, 1946",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Textiles-Embroidered",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2025-01-31T04:54:36.6Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/199706",
+      "tags": [
+        {
+          "term": "Birds",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+        },
+        {
+          "term": "Garlands",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300167386",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q756600"
+        },
+        {
+          "term": "Women",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+        },
+        {
+          "term": "Crabs",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300249722",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q16033394"
+        },
+        {
+          "term": "Lions",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300310388",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q140"
+        },
+        {
+          "term": "Flowers",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+        },
+        {
+          "term": "Summer",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300133099",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1313"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q79428101",
+      "isTimelineWork": false,
+      "GalleryNumber": "531"
+    }
+  },
+  {
+    "id": 199707,
+    "embedding_text": "Seasons and Elements (Fire) (set of four), classified as a Hanging. Made of Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.), created around ca. 1683 during the   . Associated with . Classification: Textiles-Embroidered. Created by Charles Le Brun (French, Paris 1619\u20131690 Paris). Credit: Rogers Fund, 1946. Tags: Birds, Armor, Men, Fire",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/web-large/DT813.jpg",
+    "raw": {
+      "objectID": 199707,
+      "isHighlight": false,
+      "accessionNumber": "46.43.3",
+      "accessionYear": "1946",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DT813.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DT813.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/es/original/DP155163.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 162053,
+          "role": "Designer",
+          "name": "Possibly after a design by Charles Le Brun",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+          "gender": ""
+        },
+        {
+          "constituentID": 46349,
+          "role": "Designer",
+          "name": "Border probably designed by Jean Lemoyen le Lorrain",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q79424575",
+          "gender": ""
+        },
+        {
+          "constituentID": 44426,
+          "role": "Patron",
+          "name": "Commissioned for Marquise de Montespan",
+          "constituentULAN_URL": "(not assigned)",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q230982",
+          "gender": ""
+        }
+      ],
+      "department": "European Sculpture and Decorative Arts",
+      "objectName": "Hanging",
+      "title": "Seasons and Elements (Fire) (set of four)",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Designer",
+      "artistPrefix": "Possibly after a design by",
+      "artistDisplayName": "Charles Le Brun",
+      "artistDisplayBio": "French, Paris 1619\u20131690 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Le Brun, Charles",
+      "artistNationality": "French",
+      "artistBeginDate": "1619",
+      "artistEndDate": "1690",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+      "objectDate": "ca. 1683",
+      "objectBeginDate": 1678,
+      "objectEndDate": 1688,
+      "medium": "Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.)",
+      "dimensions": "L. 168 x W. 108 inches (426.7 x 274.3 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 426.7,
+            "Width": 274.3
+          }
+        }
+      ],
+      "creditLine": "Rogers Fund, 1946",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Textiles-Embroidered",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2025-01-31T04:54:36.6Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/199707",
+      "tags": [
+        {
+          "term": "Birds",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+        },
+        {
+          "term": "Armor",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300226591",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q20793164"
+        },
+        {
+          "term": "Men",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+        },
+        {
+          "term": "Fire",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300417275",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q3196"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q79427259",
+      "isTimelineWork": false,
+      "GalleryNumber": "531"
+    }
+  },
+  {
+    "id": 199705,
+    "embedding_text": "Seasons and Elements (Spring) (set of four), classified as a Hanging. Made of Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.), created around ca. 1683 during the   . Associated with . Classification: Textiles-Embroidered. Created by Charles Le Brun (French, Paris 1619\u20131690 Paris). Credit: Rogers Fund, 1946. Tags: Birds, Fruit, Women, Insects, Sheep, Flowers, Roses, Tulips, Spring",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/web-large/DT2184.jpg",
+    "raw": {
+      "objectID": 199705,
+      "isHighlight": false,
+      "accessionNumber": "46.43.1",
+      "accessionYear": "1946",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DT2184.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DT2184.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/es/original/DP155163.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 162053,
+          "role": "Designer",
+          "name": "Possibly after a design by Charles Le Brun",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+          "gender": ""
+        },
+        {
+          "constituentID": 46349,
+          "role": "Designer",
+          "name": "Border probably designed by Jean Lemoyen le Lorrain",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q79424575",
+          "gender": ""
+        },
+        {
+          "constituentID": 44426,
+          "role": "Patron",
+          "name": "Commissioned for Marquise de Montespan",
+          "constituentULAN_URL": "(not assigned)",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q230982",
+          "gender": ""
+        }
+      ],
+      "department": "European Sculpture and Decorative Arts",
+      "objectName": "Hanging",
+      "title": "Seasons and Elements (Spring) (set of four)",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Designer",
+      "artistPrefix": "Possibly after a design by",
+      "artistDisplayName": "Charles Le Brun",
+      "artistDisplayBio": "French, Paris 1619\u20131690 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "Le Brun, Charles",
+      "artistNationality": "French",
+      "artistBeginDate": "1619",
+      "artistEndDate": "1690",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q271676",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500016215",
+      "objectDate": "ca. 1683",
+      "objectBeginDate": 1678,
+      "objectEndDate": 1688,
+      "medium": "Canvas; silk, wool, and metal-thread embroidery in tent stitch (316 stitches per sq. inch, 49 per sq. cm.)",
+      "dimensions": "L. 164 x W. 108 inches (416.6 x 274.3 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Height": 416.6,
+            "Width": 274.3
+          }
+        }
+      ],
+      "creditLine": "Rogers Fund, 1946",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Textiles-Embroidered",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2025-01-31T04:54:36.6Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/199705",
+      "tags": [
+        {
+          "term": "Birds",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+        },
+        {
+          "term": "Fruit",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300011868",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1364"
+        },
+        {
+          "term": "Women",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+        },
+        {
+          "term": "Insects",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300310470",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1390"
+        },
+        {
+          "term": "Sheep",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300250284",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q7368"
+        },
+        {
+          "term": "Flowers",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+        },
+        {
+          "term": "Roses",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300266246",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q102231"
+        },
+        {
+          "term": "Tulips",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300379705",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q30345409"
+        },
+        {
+          "term": "Spring",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300133097",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q1312"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q79427757",
+      "isTimelineWork": false,
+      "GalleryNumber": "531"
+    }
+  },
+  {
+    "id": 199313,
+    "embedding_text": "Portrait of Napoleon I, classified as a Tapestry. Made of Wool, silk, silver-gilt thread (26-28 warps per inch, 10-12 per cm.); gilded pine frame, created around designed 1805, woven 1808\u201311 during the   . Associated with . Classification: Textiles-Tapestries. Created by baron Fran\u00e7ois G\u00e9rard (French, Rome 1770\u20131837 Paris). Credit: Purchase, Joseph Pulitzer Bequest, 1943. Tags: Napoleon I, Men, Portraits",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/web-large/DP-25866-001.jpg",
+    "raw": {
+      "objectID": 199313,
+      "isHighlight": false,
+      "accessionNumber": "43.99",
+      "accessionYear": "1943",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP-25866-001.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP-25866-001.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/es/original/DT5157.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 163574,
+          "role": "Artist",
+          "name": "After a painting by baron Fran\u00e7ois G\u00e9rard",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115453",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q163543",
+          "gender": ""
+        },
+        {
+          "constituentID": 163552,
+          "role": "Manufactory",
+          "name": "Manufacture Nationale des Gobelins",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500310583",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q732312",
+          "gender": ""
+        },
+        {
+          "constituentID": 163544,
+          "role": "Workshop director",
+          "name": "Workshop of Michel Henri Cozette",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500080732",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q83330715",
+          "gender": ""
+        },
+        {
+          "constituentID": 164053,
+          "role": "Maker",
+          "name": "Woven by Harland the Elder",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500524357",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 162445,
+          "role": "Maker",
+          "name": "Woven by Abel Nicolas Sollier",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500331842",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 163890,
+          "role": "Maker",
+          "name": "Woven by Charles Duruy",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500524344",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 163227,
+          "role": "Patron",
+          "name": "Commissioned by Napol\u00e9on Bonaparte",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500434783",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q517",
+          "gender": ""
+        }
+      ],
+      "department": "European Sculpture and Decorative Arts",
+      "objectName": "Tapestry",
+      "title": "Portrait of Napoleon I",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Artist",
+      "artistPrefix": "After a painting by",
+      "artistDisplayName": "baron Fran\u00e7ois G\u00e9rard",
+      "artistDisplayBio": "French, Rome 1770\u20131837 Paris",
+      "artistSuffix": "",
+      "artistAlphaSort": "G\u00e9rard, Fran\u00e7ois, baron",
+      "artistNationality": "French",
+      "artistBeginDate": "1770",
+      "artistEndDate": "1837",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q163543",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500115453",
+      "objectDate": "designed 1805, woven 1808\u201311",
+      "objectBeginDate": 1805,
+      "objectEndDate": 1811,
+      "medium": "Wool, silk, silver-gilt thread (26-28 warps per inch, 10-12 per cm.); gilded pine frame",
+      "dimensions": "87 1/2 \u00d7 57 1/2 in. (222.3 \u00d7 146.1 cm)\r\nFramed: 8 ft. 9 3/4 in. \u00d7 75 3/4 in. (268.6 \u00d7 192.4 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": "Framed",
+          "elementMeasurements": {
+            "Length": 268.60553,
+            "Width": 192.40538
+          }
+        },
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Length": 222.25044,
+            "Width": 146.0503
+          }
+        }
+      ],
+      "creditLine": "Purchase, Joseph Pulitzer Bequest, 1943",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Textiles-Tapestries",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2025-03-05T04:54:35.18Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/199313",
+      "tags": [
+        {
+          "term": "Napoleon I",
+          "AAT_URL": "http://vocab.getty.edu/page/ulan/500122388",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q517"
+        },
+        {
+          "term": "Men",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+        },
+        {
+          "term": "Portraits",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300015637",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q134307"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q116308197",
+      "isTimelineWork": true,
+      "GalleryNumber": "553"
+    }
+  },
+  {
+    "id": 209329,
+    "embedding_text": "Tapestry Room from Croome Court, classified as a Period room. Made of Plaster, pine, mahogany, bronze-gilt, marble, lapis lazuli, steel; wool and silk (22-24 warps per inch, 9-10 per centimeter), created around 1763\u201371 during the   . Associated with . Classification: Textiles-Tapestries. Created by Robert Adam (British, Kirkcaldy, Scotland 1728\u20131792 London). Credit: Gift of Samuel H. Kress Foundation, 1958. Tags: Birds, Men, Women, Putti, Flowers",
+    "image_url": "https://images.metmuseum.org/CRDImages/es/web-large/DP341255.jpg",
+    "raw": {
+      "objectID": 209329,
+      "isHighlight": true,
+      "accessionNumber": "58.75.1\u2013.22",
+      "accessionYear": "1958",
+      "isPublicDomain": true,
+      "primaryImage": "https://images.metmuseum.org/CRDImages/es/original/DP341255.jpg",
+      "primaryImageSmall": "https://images.metmuseum.org/CRDImages/es/web-large/DP341255.jpg",
+      "additionalImages": [
+        "https://images.metmuseum.org/CRDImages/es/original/DP341242.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341258.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341253.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341270.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341281.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341274.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341280.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341283.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341275.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341243.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341254.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341261.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341277.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341343.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341279.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341278.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341273.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341340.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341246.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341272.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341286.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341259.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341241.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341269.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341282.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341345.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341266.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341240.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341288.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341236.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341234.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341237.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341249.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341287.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341268.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341250.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341251.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341245.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341252.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341285.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341271.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341239.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341248.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341264.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341263.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341267.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341238.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341284.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341233.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341347.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP116318.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341247.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341262.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341260.jpg",
+        "https://images.metmuseum.org/CRDImages/es/original/DP341235.jpg"
+      ],
+      "constituents": [
+        {
+          "constituentID": 166135,
+          "role": "Designer",
+          "name": "Room after a design by Robert Adam",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500008907",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q312635",
+          "gender": ""
+        },
+        {
+          "constituentID": 163552,
+          "role": "Manufacturer",
+          "name": "Tapestries and furniture covers manufactured by Manufacture Nationale des Gobelins",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500310583",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q732312",
+          "gender": ""
+        },
+        {
+          "constituentID": 165314,
+          "role": "Workshop director",
+          "name": "Low-warp workshop of Jacques Neilson",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500115916",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q84807750",
+          "gender": ""
+        },
+        {
+          "constituentID": 162451,
+          "role": "Designer",
+          "name": "Tapestry general conception by Jacques Germain Soufflot",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500020221",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q550244",
+          "gender": ""
+        },
+        {
+          "constituentID": 161703,
+          "role": "Designer",
+          "name": "Tapestry medallions after designs by Fran\u00e7ois Boucher",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500032143",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q180932",
+          "gender": ""
+        },
+        {
+          "constituentID": 36040,
+          "role": "Maker",
+          "name": "Furniture and curtain cornices made by William Ince",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500010618",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q121008106",
+          "gender": ""
+        },
+        {
+          "constituentID": 36039,
+          "role": "Maker",
+          "name": "and John Mayhew",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500017184",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q120692887",
+          "gender": ""
+        },
+        {
+          "constituentID": 164065,
+          "role": "Maker",
+          "name": "for the firm Ince and Mayhew",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500215211",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q6014226",
+          "gender": ""
+        },
+        {
+          "constituentID": 164066,
+          "role": "Designer",
+          "name": "Tapestry alentours and seat covers designed by Maurice Jacques",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500001416",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q37822599",
+          "gender": ""
+        },
+        {
+          "constituentID": 162521,
+          "role": "Designer",
+          "name": "and Louis Tessier",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500004194",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q42097864",
+          "gender": ""
+        },
+        {
+          "constituentID": 34624,
+          "role": "Maker",
+          "name": "Chair rails and paneling carved by Sefferin Alken",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500042351",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q18734854",
+          "gender": ""
+        },
+        {
+          "constituentID": 36866,
+          "role": "Maker",
+          "name": "Plaster ceiling and cornice moldings by Joseph Rose",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500124328",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q30544612",
+          "gender": ""
+        },
+        {
+          "constituentID": 36072,
+          "role": "Maker",
+          "name": "Chimneypiece by John Wildsmith",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500329966",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 164274,
+          "role": "Maker",
+          "name": "with frieze carved by Joseph Wilton",
+          "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500118928",
+          "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q6288018",
+          "gender": ""
+        },
+        {
+          "constituentID": 38214,
+          "role": "Maker",
+          "name": "Grate basket and fender by Thomas Blockley",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 36873,
+          "role": "Maker",
+          "name": "Doors by John Hobcraft",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        },
+        {
+          "constituentID": 34485,
+          "role": "Maker",
+          "name": "Marquery commode made by Peter Langlois",
+          "constituentULAN_URL": "",
+          "constituentWikidata_URL": "",
+          "gender": ""
+        }
+      ],
+      "department": "European Sculpture and Decorative Arts",
+      "objectName": "Period room",
+      "title": "Tapestry Room from Croome Court",
+      "culture": "",
+      "period": "",
+      "dynasty": "",
+      "reign": "",
+      "portfolio": "",
+      "artistRole": "Designer",
+      "artistPrefix": "Room after a design by",
+      "artistDisplayName": "Robert Adam",
+      "artistDisplayBio": "British, Kirkcaldy, Scotland 1728\u20131792 London",
+      "artistSuffix": "",
+      "artistAlphaSort": "Adam, Robert",
+      "artistNationality": "British, Scottish",
+      "artistBeginDate": "1728",
+      "artistEndDate": "1792",
+      "artistGender": "",
+      "artistWikidata_URL": "https://www.wikidata.org/wiki/Q312635",
+      "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500008907",
+      "objectDate": "1763\u201371",
+      "objectBeginDate": 1763,
+      "objectEndDate": 1771,
+      "medium": "Plaster, pine, mahogany, bronze-gilt, marble, lapis lazuli, steel; wool and silk (22-24 warps per inch, 9-10 per centimeter)",
+      "dimensions": "H.  27 ft. 1 in. (825.5 cm),  W. 22 ft. 8 in. (690.9 cm), D. 13 ft. 10 3/4 in. (423.5 cm)",
+      "measurements": [
+        {
+          "elementName": "Overall",
+          "elementDescription": null,
+          "elementMeasurements": {
+            "Depth": 423.5,
+            "Height": 825.5,
+            "Width": 690.9
+          }
+        }
+      ],
+      "creditLine": "Gift of Samuel H. Kress Foundation, 1958",
+      "geographyType": "",
+      "city": "",
+      "state": "",
+      "county": "",
+      "country": "",
+      "region": "",
+      "subregion": "",
+      "locale": "",
+      "locus": "",
+      "excavation": "",
+      "river": "",
+      "classification": "Textiles-Tapestries",
+      "rightsAndReproduction": "",
+      "linkResource": "",
+      "metadataDate": "2025-01-31T04:54:36.6Z",
+      "repository": "Metropolitan Museum of Art, New York, NY",
+      "objectURL": "https://www.metmuseum.org/art/collection/search/209329",
+      "tags": [
+        {
+          "term": "Birds",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300266506",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q5113"
+        },
+        {
+          "term": "Men",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025928",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q8441"
+        },
+        {
+          "term": "Women",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300025943",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q467"
+        },
+        {
+          "term": "Putti",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300250465",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q284865"
+        },
+        {
+          "term": "Flowers",
+          "AAT_URL": "http://vocab.getty.edu/page/aat/300132399",
+          "Wikidata_URL": "https://www.wikidata.org/wiki/Q506"
+        }
+      ],
+      "objectWikidata_URL": "https://www.wikidata.org/wiki/Q29383683",
+      "isTimelineWork": true,
+      "GalleryNumber": "514"
+    }
+  }
+]

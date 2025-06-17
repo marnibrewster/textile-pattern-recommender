@@ -108,19 +108,19 @@ ex: `embedding_text = f"{title}. {description} {label_text}. Made of {medium}. {
 
 **For metadata (keep raw):**
 
-- accession_number (unique ID)
-- date, decade
-- medium
-- type
-- dimensions or dimensions_raw
-- woe:country_name (geographic/cultural origin)
-- image_urls (pick one size, e.g., 640px)
-- participants (for attribution)
-- url (to the museum object page)
+- `accession_number (unique ID)`
+- `date, decade`
+- `medium`
+- `type`
+- `dimensions or dimensions_raw`
+- `woe:country_name (geographic/cultural origin)`
+- `image_urls (pick one size, e.g., 640px)`
+- `participants (for attribution)`
+- `url (to the museum object page)`
 
 **We can omit the values from the following keys:**
 
-- year_acquired, tms:id, markings, signed, inscribed, has_no_known_copyright, on_display, is_loan_object,
+- `year_acquired`, `tms:id`, `markings`, `signed`, `inscribed`, `has_no_known_copyright`, `on_display`, `is_loan_object`,
 - Raw `images` dict beyond preferred size
 
 ### The Met

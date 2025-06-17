@@ -12,5 +12,7 @@ __pycache__
 data/cooper_hewitt_textile_objects.json
 data/met_textile_objects.json
 data/textile_objectIDs.json
+data/cooper_hewitt_formatted_data.json
+data/met_formatted_data.json
 .ipynb_checkpoints/
 .DS_Store

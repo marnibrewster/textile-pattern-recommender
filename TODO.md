@@ -10,7 +10,15 @@ Completed and documented in `README.md`.
 
 ---
 
-## Step 2: Image Embedding Strategy
+## Step 2a: Text Embedding Strategy
+
+We generate text embeddings from curated metadata fields (like title, description, material, culture, artist, etc.) using a sentence-transformer model such as `sentence-transformers/all-MiniLM-L6-v2` or a similar lightweight encoder.
+
+Each object is processed to produce a combined text string that captures key semantic information (see examples in the Data Pipeline section in README.md), which is then encoded into a dense vector.
+
+These vectors are used to support similarity search based on natural language queries, such as "sacred geometry" or "botanical blues." Text embeddings and image embeddings are stored alongside each object's metadata for multi-modal retrieval.
+
+## Step 2b: Image Embedding Strategy
 
 Use a CLIP-based model (e.g., from `sentence-transformers`, `open-clip`, or `CLIP-as-service`) to generate image embeddings from museum objects.
 
