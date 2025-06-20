@@ -1,4 +1,4 @@
-# 🧵 Textile Pattern Recommender
+# Textile Pattern Recommender
 
 ⚠️ **Work In Progress**
 
@@ -26,7 +26,7 @@ Why this isn't "just ChatGPT":
 
 Note: This is a portfolio project, not a fully open-source tool intended for general reuse. Scripts are included to demonstrate my process, but full reproduction requires access tokens and substantial local data processing. If you’re curious about implementation details, see the code and comments.
 
-## 📚 Data Sources
+## Data Sources
 
 This project draws from two major museum and cultural institution APIs to build a diverse dataset of textile patterns:
 
@@ -44,7 +44,8 @@ This project draws from two major museum and cultural institution APIs to build 
 - Open Access API with CC0 license
 - Includes historical textiles from multiple cultures
 
-### Potential future sources that I might use:
+<details>
+<summary>Potential future sources that I might use:</summary>
 
 #### Victoria & Albert Museum
 
@@ -76,6 +77,8 @@ This project draws from two major museum and cultural institution APIs to build 
 - Detailed conservation information
 - Con: possible overlap with Cooper Hewitt, lack of uniform structure, lack of images, copyright murkiness
 
+</details>
+
 ## Step 1: Data Pipeline: From Raw to Indexed
 
 ### Start with Raw API Data
@@ -94,7 +97,8 @@ The initial textile data is fetched from the [Cooper Hewitt API](https://collect
 
 - the word "sample" in the string value of the following keys: `title` or `type` (sample books and swatches are typically used for testing techniques or displaying material options rather than being finished textile works - we want to focus on complete, intentional textile designs)
 
-**Text for embedding:**
+<details>
+<summary><b>Text for embedding:</b></summary>
 
 - title
 - description
@@ -104,10 +108,12 @@ The initial textile data is fetched from the [Cooper Hewitt API](https://collect
 - creditline (can hint at cultural/historical origin)
 - participants[].person_name + participants[].role_display_name
 - date (optional — can help suggest era or style)
+</details>
 
 ex: `embedding_text = f"{title}. {description} {label_text}. Made of {medium}. {type}, {date}. Designed by {maker}."`
 
-**For metadata (keep raw):**
+<details>
+<summary><b>For metadata (keep raw):</b></summary>
 
 - `accession_number (unique ID)`
 - `date, decade`
@@ -118,11 +124,15 @@ ex: `embedding_text = f"{title}. {description} {label_text}. Made of {medium}. {
 - `image_urls (pick one size, e.g., 640px)`
 - `participants (for attribution)`
 - `url (to the museum object page)`
+</details>
 
-**We can omit the values from the following keys:**
+<details>
+<summary><b>Keys we can omit:</b></summary>
 
 - `year_acquired`, `tms:id`, `markings`, `signed`, `inscribed`, `has_no_known_copyright`, `on_display`, `is_loan_object`,
 - Raw `images` dict beyond preferred size
+
+</details>
 
 ### The Met
 
@@ -141,7 +151,8 @@ This returns detailed object information including image URLs under:
 
 The full object details are saved to [data/met_textile_objects.json](data/met_textile_objects.json) for further processing (see [sample json](data/met_textile_objects_sample.json)). This file contains the complete metadata and image information for each textile object that matched our search criteria. We'll use this raw data as input for the filtering and processing steps described above.
 
-**Text for embedding:**
+<details>
+<summary><b>Text for embedding:</b></summary>
 
 - `title`
 - `objectName`
@@ -157,9 +168,13 @@ The full object details are saved to [data/met_textile_objects.json](data/met_te
 - `classification`
 - `tags[].term`
 
+</details>
+
 Ex: `embedding_text = f"{title}, classified as a {objectName}. Made of {medium}, created around {objectDate} during the {period} period. Associated with {culture}. Created by {artistDisplayName} ({artistDisplayBio}). Credit: {creditLine}. Tags: {tags}"`
 
-**We can omit the values from the following keys:**
+<details>
+
+<summary><b>Keys we can omit:</b></summary>
 
 - `artistAlphaSort`
 - `artistPrefix`
@@ -176,6 +191,7 @@ Ex: `embedding_text = f"{title}, classified as a {objectName}. Made of {medium},
 - `measurements`
 - `locale, locus, subregion, region, excavation, river`
 - `linkResource (duplicate of objectURL)`
+</details>
 
 ## Step 2a: Image Embedding Strategy
 
@@ -190,12 +206,10 @@ Use a CLIP-based model to generate image embeddings from museum objects. This st
 
 ### Pipeline:
 
-1. **Extract image URLs**
+1. **Extract image URLs** (_Handled during our transformation step:_)
 
-_Handled during our transformation step_
-
-- **Cooper Hewitt:** Use the `z` size from the first image in the `images` array (height = 640px).
-- **The Met:** Use `primaryImageSmall` from the full object details, and updated the [scripts/transform_met.py](scripts/transform_met.py) script and re-ran it to exclude objects without a `primaryImageSmall`.
+   - **Cooper Hewitt:** Use the `z` size from the first image in the `images` array (height = 640px).
+   - **The Met:** Use `primaryImageSmall` from the full object details, and updated the [scripts/transform_met.py](scripts/transform_met.py) script and re-ran it to exclude objects without a `primaryImageSmall`.
 
 2. **Download images temporarily (in memory)**
 
@@ -236,19 +250,9 @@ Each batch output contained objects in the following format:
 
 ### TODO:
 
-5. **Process user-uploaded image**
-
-   - Same pipeline as above → generate embedding → search index
-
-6. **Similarity search**
-   - Cosine similarity or nearest neighbors to find matches
+See [TODO.md](TODO.md) for next steps
 
 #### Notebooks
 
-Sample embedding run in Google Colab:
-[Image Embedding Demo (Colab)](notebooks/image_embedding_demo.ipynb)  
+[Embedding script run in Google Colab](notebooks/image_embedding_demo.ipynb)  
  ![screenshot](./assets/clip_demo_output.png)
-
----
-
-### See TODO.md for next steps
