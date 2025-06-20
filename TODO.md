@@ -8,49 +8,24 @@ This file outlines the remaining development steps for this project, including i
 
 Completed and documented in `README.md`.
 
+## ✅ Step 2a: Image Embedding Strategy
+
+Completed and documented in `README.md`.
+
 ---
 
-## Step 2a: Text Embedding Strategy
+## Step 2b: Text Embedding Strategy
 
 We generate text embeddings from curated metadata fields (like title, description, material, culture, artist, etc.) using a sentence-transformer model such as `sentence-transformers/all-MiniLM-L6-v2` or a similar lightweight encoder.
 
-Each object is processed to produce a combined text string that captures key semantic information (see examples in the Data Pipeline section in README.md), which is then encoded into a dense vector.
+Each object is processed to produce a combined text string that captures key semantic information (see the scripst [scripts/transform_met.py](scripts/transform_met.py) and [scripts/transform_cooper_hewitt.py](scripts/transform_cooper_hewitt.py), and check out an example of the data they output: [data/met_formatted_data_sample.json](data/met_formatted_data_sample.json) and [data/cooper_hewitt_formatted_data_sample.json](data/cooper_hewitt_formatted_data_sample.json)). Each entry in these files includes:
+
+- A synthesized `embedding_text`
+- Key metadata (`id`, `image_url`, and the full object in `raw`)
+
+We then generate embeddings and store them in a vector database.
 
 These vectors are used to support similarity search based on natural language queries, such as "sacred geometry" or "botanical blues." Text embeddings and image embeddings are stored alongside each object's metadata for multi-modal retrieval.
-
-## Step 2b: Image Embedding Strategy
-
-Use a CLIP-based model (e.g., from `sentence-transformers`, `open-clip`, or `CLIP-as-service`) to generate image embeddings from museum objects.
-
-### Pipeline:
-
-1. **Extract image URLs**
-
-   - **Cooper Hewitt:** Use the `z` size from the first image in the `images` array (height = 640px).
-   - **The Met:** Use `primaryImageSmall` from the full object details.
-
-2. **Download images temporarily (in memory)**
-
-   - Use `requests.get()` or `PIL.Image.open(BytesIO(...))`
-   - No need to save to disk
-
-3. **Generate embeddings**
-
-   - Load CLIP model (e.g., `CLIPProcessor` + `CLIPModel`, or `SentenceTransformer("clip-ViT-B-32")`)
-   - Resize/preprocess images per model requirements
-   - Get vector embeddings
-
-4. **Store vector + metadata**
-
-   - Format: `{ embedding: [...], id: ..., image_url: ..., text_fields: ..., metadata: ... }`
-   - Save locally (JSON/Parquet) or to a vector DB (Chroma, Weaviate, Qdrant, etc.)
-
-5. **Process user-uploaded image**
-
-   - Same pipeline as above → generate embedding → search index
-
-6. **Similarity search**
-   - Cosine similarity or nearest neighbors to find matches
 
 ---
 

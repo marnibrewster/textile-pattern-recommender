@@ -31,12 +31,14 @@ def format_objects(raw_data):
           f"Credit: {creditLine}. Tags: {tags}"
       )
 
-      formatted.append({
-          "id": id,
-          "embedding_text": embedding_text,
-          "image_url": obj.get("primaryImageSmall", ""),
-          "raw": obj
-      })
+      image_url = obj.get("primaryImageSmall", "")
+      if image_url and image_url.startswith("http"):
+        formatted.append({
+            "id": id,
+            "embedding_text": embedding_text,
+            "image_url": image_url,
+            "raw": obj
+        })
 
   return formatted
 

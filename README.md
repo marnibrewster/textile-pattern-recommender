@@ -81,15 +81,15 @@ This project draws from two major museum and cultural institution APIs to build 
 
 _Note: This project uses large datasets sourced from public APIs. To keep the repository lightweight and within GitHub storage limits, full raw and processed JSON files are not included._
 
-Instead, a few small sample files (e.g., `data/sample_cooper_hewitt_objects.json`) are provided to illustrate the data structure and format used.
+Instead, a few small sample files (e.g., [sample data objects json](data/sample_cooper_hewitt_objects.json)) are provided to illustrate the data structure and format used.
 
-If you'd like to generate the full datasets yourself, follow the steps in the code in the scripts directory (e.g., `scripts/get_ch_data.py` and `scripts/get_met_data.py`). For the Cooper Hewitt API, you'll need a `COOPER_ACCESS_TOKEN` which can be created after you [create an API key](https://collection.cooperhewitt.org/api).
+If you'd like to generate the full datasets yourself, follow the steps in the code in the scripts directory (e.g., [scripts/get_ch_data.py](scripts/get_ch_data.py) and [scripts/get_met_data.py](scripts/get_met_data.py)). For the Cooper Hewitt API, you'll need a `COOPER_ACCESS_TOKEN` which can be created after you [create an API key](https://collection.cooperhewitt.org/api).
 
 ### Cooper Hewitt
 
-The initial textile data is fetched from the [Cooper Hewitt API](https://collection.cooperhewitt.org/api) in `scripts/get_ch_data.py` and saved as `data/cooper_hewitt_textile_objects.json`. We will use `query=textile&has_images=1&has_no_known_copyright=0`.
+The initial textile data is fetched from the [Cooper Hewitt API](https://collection.cooperhewitt.org/api) in [scripts/get_ch_data.py](scripts/get_ch_data.py) and saved as [data/cooper_hewitt_textile_objects.json](data/cooper_hewitt_textile_objects.json). We will use `query=textile&has_images=1&has_no_known_copyright=0`.
 
-**Filter objects:** We have to filter these out in `scripts/get_ch_data.py` as the API doesn't support negation
+**Filter objects:** We have to filter these out in [scripts/get_ch_data.py](scripts/get_ch_data.py) as the API doesn't support negation
 
 - the word "sample" in the string value of the following keys: `title` or `type` (sample books and swatches are typically used for testing techniques or displaying material options rather than being finished textile works - we want to focus on complete, intentional textile designs)
 
@@ -125,20 +125,20 @@ ex: `embedding_text = f"{title}. {description} {label_text}. Made of {medium}. {
 
 ### The Met
 
-First we perform a search for `objectIDs` by querying the [The Metropolitan Museum of Art Collection API](https://metmuseum.github.io/) using this endpoint `https://collectionapi.metmuseum.org/public/collection/v1/search?medium=textiles&hasImages=true&q=a` to find all textile objects that have associated images. The results are fetched in `scripts/get_met_data.py` and saved as `data/textile_objectIDs.json`.
+First we perform a search for `objectIDs` by querying the [The Metropolitan Museum of Art Collection API](https://metmuseum.github.io/) using this endpoint `https://collectionapi.metmuseum.org/public/collection/v1/search?medium=textiles&hasImages=true&q=a` to find all textile objects that have associated images. The results are fetched in [scripts/get_met_data.py](scripts/get_met_data.py) and saved as [data/textile_objectIDs.json](data/textile_objectIDs.json).
 
 Note: We use `q=a` because we can't use "." and we can't filter the objects endpoint with `hasImages` or `medium`. Using "a" as the search term almost guarantees that we get accurate results, as we have to assume that almost every object contains the character "a".
 
-This returns a JSON response containing an array of objectIDs for all textile objects that have associated images. We save these IDs to `data/textile_objectIDs.json` (see `data/textile_object_IDs_sample.json`) to use for fetching the full object details in the next step.
+This returns a JSON response containing an array of objectIDs for all textile objects that have associated images. We save these IDs to [data/textile_objectIDs.json](data/textile_objectIDs.json) (see [sample json](data/textile_object_IDs_sample.json)) to use for fetching the full object details in the next step.
 
-Then for each objectID in raw*met_objectIDs, fetch the full object details including images from the Met's object endpoint using `scripts/get_met_data.py`. \_Note that we use a `time.sleep` as the Met only allows 80 requests per second.*
+Then for each objectID in raw*met_objectIDs, fetch the full object details including images from the Met's object endpoint using [scripts/get_met_data.py](scripts/get_met_data.py). \_Note that we use a `time.sleep` as the Met only allows 80 requests per second.*
 
 This returns detailed object information including image URLs under:
 
 - `primaryImage`: Full resolution image
 - `primaryImageSmall`: Smaller resolution image (recommended)
 
-The full object details are saved to `data/met_textile_objects.json` for further processing (see `data/met_textile_objects_sample.json`). This file contains the complete metadata and image information for each textile object that matched our search criteria. We'll use this raw data as input for the filtering and processing steps described above.
+The full object details are saved to [data/met_textile_objects.json](data/met_textile_objects.json) for further processing (see [sample json](data/met_textile_objects_sample.json)). This file contains the complete metadata and image information for each textile object that matched our search criteria. We'll use this raw data as input for the filtering and processing steps described above.
 
 **Text for embedding:**
 
@@ -175,5 +175,79 @@ Ex: `embedding_text = f"{title}, classified as a {objectName}. Made of {medium},
 - `measurements`
 - `locale, locus, subregion, region, excavation, river`
 - `linkResource (duplicate of objectURL)`
+
+## Step 2a: Image Embedding Strategy
+
+Use a CLIP-based model to generate image embeddings from museum objects. This step was performed in [Google Colab](https://colab.research.google.com/) to take advantage of free / low-cost GPUT resources and avoid long runtimes on my local machine.
+
+### Why Google Colab?
+
+- Free access to GPUs (I used `ViT-B/32` via `openai/CLIP`)
+- Easy to test batching and monitor results
+- Avoided large local memory and compute usage
+- All results downloaded as `.json` batch files per 50-object chunk
+
+### Pipeline:
+
+1. **Extract image URLs**
+
+_Handled during our transformation step_
+
+- **Cooper Hewitt:** Use the `z` size from the first image in the `images` array (height = 640px).
+- **The Met:** Use `primaryImageSmall` from the full object details, and updated the [scripts/transform_met.py](scripts/transform_met.py) script and re-ran it to exclude objects without a `primaryImageSmall`.
+
+2. **Download images temporarily (in memory)**
+
+   - Use `requests.get()` with `PIL.Image.open(BytesIO(...))`
+   - No image files were saved to disk
+
+3. **Generate embeddings in batches** ([see notebook for code](notebooks/image_embedding_demo.ipynb))
+
+   - Load CLIP model (`ViT-B/32` via `clip` package)
+   - Preprocessed images with `clip.load(...)[1]
+   - Ran embedding extraction on batches of 50 objects
+   - Captured failed image URLs in a CSV log for later reprocessing
+
+     [See example data](data/met_embeddings_batch_0_sample.json)
+
+4. **Store vector + metadata**
+
+Each batch output contained objects in the following format:
+
+```
+{
+  "id": "object_id",
+  "image_url": "https://...",
+  "embedding": [...],
+  "text_fields": "long description used for text search",
+  "metadata": {
+    "title": "...",
+    "medium": "...",
+    "date": "...",
+    "description": "...",
+    "object_url": "https://..."
+  }
+}
+```
+
+- Saved locally as JSON in batch files like:
+- See [batch sample data](data/cooper_hewitt_embeddings_batch_0_sample.json)
+
+### TODO:
+
+5. **Process user-uploaded image**
+
+   - Same pipeline as above → generate embedding → search index
+
+6. **Similarity search**
+   - Cosine similarity or nearest neighbors to find matches
+
+#### Notebooks
+
+Sample embedding run in Google Colab:
+[Image Embedding Demo (Colab)](notebooks/image_embedding_demo.ipynb)  
+ ![screenshot](./assets/clip_demo_output.png)
+
+---
 
 ### See TODO.md for next steps

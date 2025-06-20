@@ -16,3 +16,6 @@ data/cooper_hewitt_formatted_data.json
 data/met_formatted_data.json
 .ipynb_checkpoints/
 .DS_Store
+data/batched_met_embeddings/
+data/batched_cooper_hewitt_embeddings/
+chroma_db/
