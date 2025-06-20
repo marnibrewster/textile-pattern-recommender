@@ -5,6 +5,7 @@
 This is an active personal project under development. Code, data handling, and model integration are still evolving. Expect updates, bugs, and unfinished components. Feedback and collaboration welcome!
 
 This project is a non-commercial, educational exploration that helps users find visually or thematically similar historical textile patterns based on an image upload, theme keyword, or mood description. The code and models are used solely for research and learning purposes, with all rights to the textile images and metadata remaining with their respective owners.
+
 Inputs:
 
 - image upload OR
@@ -83,7 +84,7 @@ _Note: This project uses large datasets sourced from public APIs. To keep the re
 
 Instead, a few small sample files (e.g., [sample data objects json](data/sample_cooper_hewitt_objects.json)) are provided to illustrate the data structure and format used.
 
-If you'd like to generate the full datasets yourself, follow the steps in the code in the scripts directory (e.g., [scripts/get_ch_data.py](scripts/get_ch_data.py) and [scripts/get_met_data.py](scripts/get_met_data.py)). For the Cooper Hewitt API, you'll need a `COOPER_ACCESS_TOKEN` which can be created after you [create an API key](https://collection.cooperhewitt.org/api).
+If you'd like to generate the full datasets yourself, follow the steps in the code in the scripts directory (e.g., [scripts/get_ch_data.py](scripts/get_ch_data.py) and [scripts/get_met_data.py](scripts/get_met_data.py)). For the Cooper Hewitt API, you'll need a `COOPER_ACCESS_TOKEN` which can be created after you [create an API key](https://collection.cooperhewitt.org/api). To run [scripts/get_ch_data.py](scripts/get_ch_data.py), you'll need to create an `.env` file at the root of the project. Copy the contents of [sample.env](sample.env) and paste it into `.env`, then paste your api access token directly after the "=".
 
 ### Cooper Hewitt
 
