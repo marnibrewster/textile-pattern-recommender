@@ -19,3 +19,5 @@ data/met_formatted_data.json
 data/batched_met_embeddings/
 data/batched_cooper_hewitt_embeddings/
 chroma_db/
+data/met_text_embeddings/
+data/cooper_hewitt_text_embeddings/

@@ -248,6 +248,62 @@ Each batch output contained objects in the following format:
 - Saved locally as JSON in batch files like:
 - See [batch sample data](data/cooper_hewitt_embeddings_batch_0_sample.json)
 
+## Step 2b: Text Embedding Strategy
+
+We’ve now generated text embeddings for both The Met and Cooper Hewitt datasets and stored them in separate ChromaDB collections.
+
+### Pipeline
+
+1. Transform structured object metadata into natural language text.
+
+   - During the [transform_met](scripts/transform_met.py) and [transform_cooper_hewitt](scripts/transform_cooper_hewitt.py) scripts, we created a embedding_text field combining title, medium, culture, period, and other available fields into a readable sentence.
+
+2. Generate sentence embeddings.
+
+- We used the all-MiniLM-L6-v2 model from sentence-transformers.
+
+- Embeddings were generated in batches of 50 and saved to disk (e.g., data/met_text_embeddings/met_text_embeddings_batch_0.json).
+
+3. Store vector + metadata.
+
+- Format:
+
+```
+{
+"id": "...",
+"image_url": "...",
+"embedding": [...],
+"metadata": {
+  "title": "...",
+  "medium": "...",
+  "date": "...",
+  "description": "..."
+}
+}
+```
+
+These JSON batch files are used to populate the Chroma vector database.
+
+4. Insert into ChromaDB.
+
+- Two collections created for text embeddings with `import_text_data_to_chroma` scripts:
+
+  - met_text_objects
+
+  - cooper_hewitt_text_objects
+
+  These live alongside the image-based collections (met_objects, cooper_hewitt_objects).
+
+Sample Files:
+
+For transparency, a few example text embedding files are available in data/sample_batches/:
+
+[data/sample_batches/met_text_embeddings_batch_0_sample.json](data/sample_batches/met_text_embeddings_batch_0_sample.json)
+
+[data/sample_batches/cooper_hewitt_text_embeddings_batch_0_sample.json](data/sample_batches/cooper_hewitt_text_embeddings_batch_0_sample.json)
+
+Note: Full embedding datasets are excluded from version control. See .gitignore for excluded paths.
+
 ### TODO:
 
 See [TODO.md](TODO.md) for next steps

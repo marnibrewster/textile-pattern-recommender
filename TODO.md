@@ -16,16 +16,7 @@ Completed and documented in `README.md`.
 
 ## Step 2b: Text Embedding Strategy
 
-We generate text embeddings from curated metadata fields (like title, description, material, culture, artist, etc.) using a sentence-transformer model such as `sentence-transformers/all-MiniLM-L6-v2` or a similar lightweight encoder.
-
-Each object is processed to produce a combined text string that captures key semantic information (see the scripst [scripts/transform_met.py](scripts/transform_met.py) and [scripts/transform_cooper_hewitt.py](scripts/transform_cooper_hewitt.py), and check out an example of the data they output: [data/met_formatted_data_sample.json](data/met_formatted_data_sample.json) and [data/cooper_hewitt_formatted_data_sample.json](data/cooper_hewitt_formatted_data_sample.json)). Each entry in these files includes:
-
-- A synthesized `embedding_text`
-- Key metadata (`id`, `image_url`, and the full object in `raw`)
-
-We then generate embeddings and store them in a vector database.
-
-These vectors are used to support similarity search based on natural language queries, such as "sacred geometry" or "botanical blues." Text embeddings and image embeddings are stored alongside each object's metadata for multi-modal retrieval.
+Completed and documented in `README.md`.
 
 ---
 
