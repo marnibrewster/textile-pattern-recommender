@@ -304,6 +304,38 @@ For transparency, a few example text embedding files are available in data/sampl
 
 Note: Full embedding datasets are excluded from version control. See .gitignore for excluded paths.
 
+## Step 3: Vector Database Setup and Query Logic
+
+### Embedded Image and Text Data Using CLIP
+
+All museum object data (from The Met and Cooper Hewitt) was embedded using CLIP's `ViT-B/32` model. This included both the image and the associated metadata (title, medium, description, etc.).
+
+### Unified Vector DB for All Queries
+
+After evaluating weak performance using standalone text embeddings (all-MiniLM-L6-v2), we switched to using the CLIP text encoder for text prompts as well. This allowed both image and text queries to use the image-based vector databases, which contain richer embeddings.
+
+### ChromaDB Re-indexing with Cosine Similarity
+
+To support CLIP's cosine similarity space, the image collections were re-indexed with:
+
+`metadata={"hnsw:space": "cosine"}`
+
+This ensures accurate similarity scoring during retrieval.
+
+### Dual-Source Querying
+
+For both text and image input, the app queries the image vector databases:
+
+- `met_objects`
+
+- `cooper_hewitt_objects`
+
+  The top 5 results from each are merged and sorted by similarity score before being returned to the user.
+
+## Step 4: User Interface with Gradio
+
+Created a tabbable user interface that allows the user to use a text prompt or an image prompt to return similar items.
+
 ### TODO:
 
 See [TODO.md](TODO.md) for next steps

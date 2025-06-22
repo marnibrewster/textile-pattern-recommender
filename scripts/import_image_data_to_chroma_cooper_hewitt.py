@@ -1,3 +1,5 @@
+# This script creates ChromaDB for image embeddings
+
 import json
 from pathlib import Path
 import chromadb
@@ -6,7 +8,18 @@ CHROMA_DIR = "chroma_db"
 client = chromadb.PersistentClient(path=CHROMA_DIR)
 
 COLLECTION_NAME = "cooper_hewitt_objects"
-collection = client.get_or_create_collection(name=COLLECTION_NAME)
+
+# Delete the old collection if it exists
+try:
+    client.delete_collection(COLLECTION_NAME)
+    print(f"Deleted existing collection: {COLLECTION_NAME}")
+except:
+    pass  # Collection didn't exist, which is fine
+
+collection = client.get_or_create_collection(
+  name=COLLECTION_NAME,
+  metadata={"hnsw:space": "cosine"}
+)
 
 BATCH_DIR = Path("data/batched_cooper_hewitt_embeddings")
 batch_files = sorted(BATCH_DIR.glob("*.json"))

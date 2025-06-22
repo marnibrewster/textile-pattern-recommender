@@ -20,15 +20,19 @@ Completed and documented in `README.md`.
 
 ---
 
-## Step 3: Create User Interface
+## Step 3: Vector Database Setup and Query Logic
 
-Decide between:
+Completed and documented in `README.md`.
 
-### Option A: **Gradio prototype**
+---
 
-- Simple UI for image upload and text input
-- Great for fast demos and testing
-- Minimal deployment effort
+## Step 4: Create User Interface
+
+Completed and documented in `README.md`.
+
+---
+
+## Possible UI enhancement:
 
 ### Option B: **Next.js + FastAPI**
 
@@ -38,8 +42,6 @@ Decide between:
 
 Features to include:
 
-- Upload or prompt-based search
-- Display image matches with metadata
 - Optional: pin matches to a board / export
 - Optional: filters by era, origin, medium, etc.
 
